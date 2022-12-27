@@ -1,10 +1,12 @@
 {
-    "editor.suggestSelection": "first",
+	// Open the merge editor for files that are currently under conflict.
+	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"mergeEditor.showCheckboxes": true,
+	"mergeEditor.showCodeLenses": false,
 	"tabnine.experimentalAutoImports": true,
 	"terminal.integrated.fontFamily": "Cascadia Code,Consolas, 'Courier New', monospace",
-	"editor.fontSize": 17,
-	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontSize": 14,
 	"html.format.endWithNewline": true,
 	"liveServer.settings.ignoreFiles": ["*/.json", "*.json"],
 	"[javascript]": {
@@ -17,9 +19,9 @@
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"editor.wordWrap": "on",
-	"prettier.jsxSingleQuote": true,
-	"prettier.jsxBracketSameLine": true,
-	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.singleQuote": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"workbench.editorAssociations": {
 		"*.dll": "default"
@@ -30,7 +32,7 @@
 	"prettier.proseWrap": "always",
 	"powermode.enabled": true,
 	"powermode.enableStatusBarComboTimer": false,
-	"workbench.colorTheme": "Dracula darker contrast",
+	"workbench.colorTheme": "Evondev Dracula Darker Contrast",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"files.autoSaveDelay": 100,
 	"editor.formatOnPaste": true,
@@ -56,6 +58,41 @@
 		"python:S1542": {
 			"level": "off"
 		}
-    },
-    "editor.fontFamily": "\"Cascadia Code\",Consolas, 'Courier New', monospace",
+	},
+	"editor.fontFamily": "\"Cascadia Code\",Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"sonarlint.ls.javaHome": "c:\\Users\\19521\\.vscode\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.15+10-jre",
+	"terminal.integrated.fontSize": 17,
+	"workbench.iconTheme": "material-icon-theme",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"explorer.compactFolders": false,
+	// Show variable values inline in editor while debugging.
+	"debug.inlineValues": "on",
+	"editor.codeActionsOnSave": {},
+	"autoprefixer.options": {
+		"browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+	},
+	"intelephense.format.braces": "k&r",
+	"intelephense.environment.shortOpenTag": false,
+	"python.defaultInterpreterPath": "C:\\Users\\19521\\anaconda3\\python.exe",
+	"editor.language.brackets": [],
+	"python.experiments.optInto": [],
+	"[astro]": {
+		"editor.defaultFormatter": "astro-build.astro-vscode"
+	},
+	"hardhat.telemetry": true,
+	"[solidity]": {
+		"editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+	},
+	"workbench.colorCustomizations": {
+		"editorWhitespace.foreground": "#ff0040"
+	},
+	"settingsSync.ignoredExtensions": [],
+	"git.mergeEditor": false,
+
+	"merge-conflict.autoNavigateNextConflict.enabled": true,
+	"git.autofetch": true,
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	}
 }
